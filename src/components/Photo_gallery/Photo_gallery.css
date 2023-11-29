@@ -1,0 +1,15 @@
+.Photo_gallery{
+    text-align: center;
+    margin-top: 30px;
+}
+.flex_row{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.thumbnail{
+    padding-left: 20px;
+}
+.clicked{
+    border: 5px solid black;
+}
