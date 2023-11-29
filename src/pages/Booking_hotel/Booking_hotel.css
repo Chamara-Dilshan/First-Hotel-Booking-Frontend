@@ -1,0 +1,10 @@
+.b {
+    background-color: "280c0c";
+}
+
+.LReviews_RReserve {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 20px;
+}
