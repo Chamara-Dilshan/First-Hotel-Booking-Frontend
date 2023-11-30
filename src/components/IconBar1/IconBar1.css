@@ -1,0 +1,48 @@
+.IconBar1{
+    display: flex;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+.BedroomChildIcon{
+    display: block;
+    float: none;
+    padding-left:20
+}
+
+.RestaurantIcon{
+    display: block;
+    float: none;
+    padding-left:20
+}
+
+.LocalParkingIcon{
+    display: block;
+    float: none;
+    padding-left:20
+}
+
+.Discription{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.desc-content {
+    padding: 10px 5px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 2px gray;
+    background-color: rgba(240, 235, 235, 0.8);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.read-more-btn {
+    justify-self: flex-end;
+    background-color: #0EB1B1;
+    font-family: Montserrat;
+    padding: 8px 20px;
+    border-radius: 24px;
+    border: 1px solid #264653;
+}
