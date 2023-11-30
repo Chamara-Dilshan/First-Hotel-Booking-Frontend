@@ -1,0 +1,75 @@
+.LReview{
+    margin: 10px 0 20px 20px;
+    padding: 0 10px;
+    border: 1px solid #1B757C;
+    background-color: #C2C6CC;
+    border-radius: 16px;
+}
+
+.review-header {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: 5px;
+    background-color: #1B757C;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Montserrat;
+    padding: 8px 20px;
+    border-radius: 24px;
+}
+
+.review-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 85vh;
+    overflow-y: scroll;
+}
+
+.review-card {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.review-card-header {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    padding-bottom: 10px;
+}
+
+.review-card-header-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.card-profile {
+    border-radius: 50%;
+}
+
+.review-card-header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.review-card-header-user {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+}
+
+.review-card-header-date {
+    color: gray;
+}
+
+.review-card-description {
+    padding: 0 5px;
+}
