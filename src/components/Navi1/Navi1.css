@@ -1,0 +1,11 @@
+.NavBar2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.login-btn{
+    padding: 1rem;
+    margin: 20px;
+
+}
